@@ -1,4 +1,6 @@
 App1::Application.routes.draw do
+  get "users/new"
+
   resources :products
 
 
