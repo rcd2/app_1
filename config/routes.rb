@@ -1,4 +1,13 @@
 App1::Application.routes.draw do
+  resources :products
+
+
+  resources :staffs
+
+
+  resources :customers
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
